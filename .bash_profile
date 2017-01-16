@@ -34,11 +34,11 @@
 #	-------------------------------
 
 	# Terminal
-	alias ls='ls -lGFha'					# Better list output
-	alias f='open -a Finder ./'				# Opens current directory in MacOS Finder
-	alias ~="cd ~"							# Go Home
-	alias c='clear'							# Clear terminal display
-	alias cgs='clear && git status'			# Clear and display git status
+	alias ls='ls -lGFha'				# Better list output
+	alias f='open -a Finder ./'			# Opens current directory in MacOS Finder
+	alias ~="cd ~"						# Go Home
+	alias c='clear'						# Clear terminal display
+	alias cgs='clear && git status'		# Clear and display git status
 
 	# Manage Dotfile visibility
 	alias showHidden='defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder'
