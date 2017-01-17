@@ -45,7 +45,7 @@
 	alias hideHidden='defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder'
 
 	# Development
-	alias editHosts='sudo edit /etc/hosts'	# Edit /etc/hosts file
+	alias editHosts='sudo subl /etc/hosts'	# Edit /etc/hosts file
 
 
 #	-------------------------------
