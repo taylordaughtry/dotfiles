@@ -26,7 +26,7 @@
 	export PATH="$PATH:~/.composer/vendor/bin"
 
 	# Set Sublime Text as default editor
-	export EDITOR=subl
+	# export EDITOR=subl
 
 
 #	-------------------------------
@@ -39,6 +39,9 @@
 	alias ~="cd ~"						# Go Home
 	alias c='clear'						# Clear terminal display
 	alias cgs='clear && git status'		# Clear and display git status
+
+	# Laravel
+	alias art='php artisan'				# Shortcut to Laravel Artisan Commands
 
 	# Manage Dotfile visibility
 	alias showHidden='defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder'
