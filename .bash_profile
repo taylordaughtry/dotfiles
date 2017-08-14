@@ -39,6 +39,7 @@
 	alias ~="cd ~"						# Go Home
 	alias c='clear'						# Clear terminal display
 	alias cgs='clear && git status'		# Clear and display git status
+	alias art='php artisan'				# Laravel shortcut
 
 	# Manage Dotfile visibility
 	alias showHidden='defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder'
