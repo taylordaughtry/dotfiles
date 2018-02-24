@@ -32,7 +32,7 @@
 	export PATH=./node_modules/.bin:$PATH
 
 	# Set Sublime Text as default editor
-	# export EDITOR=subl
+	export EDITOR='subl' -w
 
 
 #	-------------------------------
