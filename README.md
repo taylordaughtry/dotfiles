@@ -28,6 +28,14 @@ preferred theme.)
 2. Install [ColorSublime](https://packagecontrol.io/packages/Colorsublime) through Package Control
 3. Install the Afterglow Theme
 
+## Terminal Setup
+
+Until I can automate this, it'll have to be done manually:
+
+1. Go to https://github.com/lysyi3m/osx-terminal-themes
+2. Download the ZIP + open the `schemes/Afterglow.terminal` file
+3. Select Shell->Use settings as default in menu
+
 ## Roadmap
 
 - Download, install, and setup everyday development apps (Sublime, Transmit...)
