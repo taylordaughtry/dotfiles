@@ -24,6 +24,8 @@
 
 	# Add Composer to PATH
 	export PATH="$PATH:~/.composer/vendor/bin"
+	export PATH=./node_modules/.bin:$PATH
+	export PATH=/usr/local/php5/bin:$PATH
 
 	# Set Sublime Text as default editor
 	# export EDITOR=subl
@@ -98,3 +100,5 @@
 
 		cd $currentDirectory;
 	}
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
