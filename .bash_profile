@@ -24,8 +24,12 @@
 
 	# Add Composer to PATH
 	export PATH="$PATH:~/.composer/vendor/bin"
+
+	# Add /usr/local/bin to PATH
+	export PATH=/usr/local/bin:$PATH
+
+	# Add node_modules to PATH
 	export PATH=./node_modules/.bin:$PATH
-	export PATH=/usr/local/php5/bin:$PATH
 
 	# Set Sublime Text as default editor
 	# export EDITOR=subl
