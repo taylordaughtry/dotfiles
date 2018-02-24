@@ -1,28 +1,32 @@
 {
-	// UI Preferences
+	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Colorsublime - Themes/Afterglow.tmTheme",
+	"detect_indentation": false,
 	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
 	"font_face": "Roboto Mono",
 	"font_size": 14,
 	"gutter": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_to_bracket": false,
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
-	"rulers": [ 80,120 ],
-	"scroll_past_end": true,
-
-	// Tab Preferences
-	"tab_size": 4,
-	"translate_spaces_to_tabs": true,
-	"translate_tabs_to_spaces": false,
-
-	// UX Preferences
-	"close_windows_when_empty": true,
-	"ensure_newline_at_eof_on_save": true,
-	"find_selected_text": true,
-	"indent_to_bracket": false,
-	"trim_trailing_white_space_on_save": true,
-	"word_separators": "./\\()\"'-_:,.;<>~!@#$%^&*|+=[]{}`~?",
 	"open_files_in_new_window": false,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"scroll_past_end": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": false,
+	"word_separators": "./\\()\"'-_:,.;<>~!@#$%^&*|+=[]{}`~?"
 }
