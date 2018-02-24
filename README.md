@@ -26,6 +26,7 @@ preferred theme.)
 
 1. Download [Package Control](https://packagecontrol.io/installation)
 2. Install [ColorSublime](https://packagecontrol.io/packages/Colorsublime) through Package Control
+3. Install the Afterglow Theme
 
 ## Roadmap
 
